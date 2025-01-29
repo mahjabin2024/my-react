@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Goal from './components/Goal';
+import Greeting from './components/Greeting';
+import Props from './components/Greeting';
 
 function App() {
   return (
     <div className="App">
-    <Goal></Goal>
+   <Greeting></Greeting>
     </div>
   );
 }
